@@ -1,0 +1,38 @@
+.header {
+    background-image: url("/images/background-1.jpg");
+    background-position: center;
+    background-size: cover;
+
+    height: 1000px;
+
+    nav  {
+        padding: 60px 24px 20px;
+        }
+
+    &__logo {
+        font-size: 28px;
+        color: $font-color;
+        font-weight: 900;
+    }
+
+    &__menu {
+        >span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkblue;         
+            
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+
+    }
+
+    &__links {
+        a {
+            font-size: .875rem;
+            color: $font-color;
+        }
+    }
+}
