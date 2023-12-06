@@ -1,6 +1,6 @@
 .header {
-    background-image: url("/images/background-1.jpg");
-    background-position: center;
+    background-image: url("/images/pic-2.jpg");
+    background-position: center center;
     background-size: cover;
 
     height: 1000px;
@@ -11,7 +11,7 @@
 
     &__logo {
         font-size: 28px;
-        color: $font-color;
+        color: $font-color-white;
         font-weight: 900;
     }
 
@@ -31,8 +31,53 @@
 
     &__links {
         a {
-            font-size: .875rem;
-            color: $font-color;
+            font-size: 1.25rem;
+            color: $font-color-white;
+        }
+    }
+
+    &__title {
+        color: $font-color-white;
+        text-align: center;
+        // position: relative;
+        // top: 100px;
+        margin-top: 150px;
+        font-size: $font-lg;
+        
+    }
+
+    &__form {
+        background: rgba(255,255,255,0.4);
+        text-align: center;
+        margin-top: 10rem;
+        padding: 40px;
+
+        h3 {
+            font-size: 1.5rem;
+            background-color: $bg-white;
+            // display: inline-block;
+            padding: 20px 40px;
+            margin-bottom: 0;
+            border-radius: 10px 10px 0 0 ;
+        }
+
+        .search {
+            display: block;
+            background-color: $bg-white;
+            padding: 10px;
+            margin-bottom: 30px;
+
+            >input {
+                background-color: $bg-input;
+                font-size: $font-md;
+                font-weight: 600;
+                height: 50px;
+                margin: 10px;
+                padding: 0 10px;
+                border: none;
+                outline: none;
+                color: $input-text;
+            }
         }
     }
 }

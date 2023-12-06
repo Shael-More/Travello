@@ -1,8 +1,19 @@
 // colors
-$darkblue: hsl(233, 26%, 24%);
-$font-color: hsl(0, 0, 100);
+$darkblue: #2e314d;
+$font-color-white: #ffffff;
+$font-color-black: #000000;
+$bg-white:  #ffffff;
+$bg-black:#000;
+$bg-input: #f0ecec;
+$input-text: #808080;
+$text-color-white: #ffffff;
 
 
 // font size
 $font-sm:.875rem;
 $font-md:1.125rem;
+$font-lg: 5.125rem;
+
+
+// border radius
+// $base-border-radius: .625rem; 

@@ -7,23 +7,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/dist/css/style.min.css">
     <title>Great Travel</title>
 </head>
 <body>
     <header class="header">
         
-        <nav class="flex flex-jc-sb flex-ai-c"> 
+        <nav class="flex flex-jc-sb flex-ai-c wrapper"> 
             <a href="/" class="header__logo">Travello</a>
 
-            <a href="#" class="header__menu">
+            <a href="#" class="header__menu hide-for-desktop">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
 
-            <div class="header__links">
+            <div class="header__links hide-for-mobile">
                 <a href="#">Home</a>
                 <a href="#">About Us</a>
                 <a href="#">Services</a>
@@ -31,7 +31,22 @@
                 <a href="#">Contact</a>
             </div>
         </nav>
-        <h1 class="">Let us take you away</h1>
+
+        <h1 class="header__title">Let us take you away</h1>
+
+
+        <section class="header__form wrapper">
+            <h3>Search for your trip</h3>
+            <form action="" class="search">
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="Departure" required>
+                <input type="text" placeholder="Arrival" required>
+                <input type="text" placeholder="Budget" required>
+                <button type="button" class="button">Search</button>
+            </form>
+        </section>
+
+
     </header>
     <script src="/app/js/script.js"></script>
 </body>
