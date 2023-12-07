@@ -1,7 +1,10 @@
 // breakpoints
 
-@media (min-width: 64em) {
+@media (min-width: 400px) { //64em
 // styles
+    .header__title {
+        font-size: 10px;
+    }
 }
 
 // 640px 1024px 1400px

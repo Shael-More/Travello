@@ -64,6 +64,7 @@ a, a:visited, a:hover {
     @include breakpoint-down(medium) {
         display: none;
     }
+
 }
 
 .hide-for-desktop {
