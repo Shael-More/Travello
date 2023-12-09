@@ -1,4 +1,8 @@
 .cards {
-    text-align: center;
-    margin-top: 40px;
+
+    &__headline {
+        text-align: center;
+        margin-top: 40px;
+        gap: 5px;
+    }
 }

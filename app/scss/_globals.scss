@@ -35,6 +35,14 @@ a, a:visited, a:hover {
         justify-content: space-between;
     }
 
+    &-jc-se {
+        justify-content: space-evenly;
+    }
+
+    &-jc-sa {
+        justify-content: space-around;
+    }
+
     &-jc-c {
         justify-content: center;
     }
