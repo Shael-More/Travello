@@ -53,6 +53,17 @@ a, a:visited, a:hover {
 
 }
 
+// grid style 
+.grid {
+
+    display: grid;
+
+    &__row {
+        grid-template-columns: repeat(3, 1fr);
+        gap: .625rem;
+    }
+}
+
 // buttons 
 
 .button {
@@ -85,9 +96,3 @@ a, a:visited, a:hover {
 .services {
     margin: 40px auto;
 }
-
-
-// images
-// .img {
-
-// }
