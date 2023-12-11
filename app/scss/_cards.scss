@@ -4,4 +4,16 @@
         text-align: center;
         margin-top: 40px;
     }
+
+    &__places > div {
+        padding: 12px ;
+    }
+
+    &__price {
+        line-height: 0.6;
+
+        > span {
+            font-weight: bold;
+        }
+    }
 }

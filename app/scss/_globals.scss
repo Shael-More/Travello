@@ -5,6 +5,19 @@ html {
     box-sizing: border-box;
 }
 
+html:not([data-scroll='0']) {
+    body {
+        padding-top: 10em;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        background: rgba(0,0,0,0.3);
+        box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+    }
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -23,9 +36,11 @@ body {
     margin: 0 auto;
 }
 
-a, a:visited, a:hover {
+a, a:visited,a:hover {
     text-decoration: none;
+   
 }
+
 // flexbox style
 
 .flex {
@@ -55,13 +70,9 @@ a, a:visited, a:hover {
 
 // grid style 
 .grid {
-
     display: grid;
-
-    &__row {
-        grid-template-columns: repeat(3, 1fr);
-        gap: .625rem;
-    }
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 5px;
 }
 
 // buttons 
@@ -93,6 +104,12 @@ a, a:visited, a:hover {
     }
 }
 
-.services {
-    margin: 40px auto;
+.Services {
+    margin: 60px auto;
+}
+
+.desc {
+    line-height: 0.6;
+    margin-left: 30px;
+
 }
