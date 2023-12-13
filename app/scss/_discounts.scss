@@ -1,0 +1,63 @@
+.discounts .tips {
+    width: 700px;
+   
+}
+
+.discounts .b1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.discounts .dis {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.besttips {
+    line-height: 0.9;
+    margin-left: 14px;
+}
+
+.besttips .date {
+    font-size: 44px;
+}
+
+.besttips .month {
+    font-size: 12px;
+    color: #8d8d8d;
+    text-transform: uppercase;
+
+}
+
+.besttips .travel-light {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.besttips .tag {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.besttips p {
+    font-size: 16px;
+    color: #8d8d8d;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.disblock {
+    background-image: url(/images/discount.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 740px;
+    // object-fit: cover;
+    // margin-left: 20px;
+
+}
