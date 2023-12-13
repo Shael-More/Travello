@@ -57,7 +57,29 @@
     background-size: cover;
     width: 400px;
     height: 740px;
-    // object-fit: cover;
-    // margin-left: 20px;
-
 }
+
+.disblock .off {
+    width: 400px;
+    height: 180px;
+    background-color: rgba(223, 96, 166, 0.7);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.disblock .off .get-discount {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+}
+.disblock .off .book {
+    display: block;
+    font-size: 24px;
+}
+
